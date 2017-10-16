@@ -1,0 +1,910 @@
+/*cakePHP設定初期化*/
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/*フォント*/
+body {
+  font-family : "Meiryo", "メイリオ", "HiraKakuProN-W6", "ヒラギノ角ゴ ProN W6", sans-serif;
+}
+
+/*フォントサイズ*/
+h1 {
+  font-size: 18px;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 14px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 14px;
+}
+p {
+	font-size: 14px;
+  color: #333;
+  line-height: 1.429;
+}
+
+/*見出し*/
+.ttl-bar-bold {
+  width: 100%;
+  padding: 10px;
+	color: #6e321d;
+  background-color: #f7ded5;
+}
+
+/*強調*/
+.bold {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*背景色を白*/
+.bg-white {
+  background-color: #fff;
+}
+
+/*スムーススクロール*/
+#back-to-top {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  right: 15px;
+  bottom: 15px;
+}
+
+/*スマホ用ドロワーメニュー*/
+#drawer {
+  display: none;
+  right: 0;
+  top: 0;
+  width: 80%;
+  position: fixed;
+  z-index: 300;
+  background-color: #333;
+  filter:alpha(opacity=90);
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+}
+#dummy {
+  display: none;
+  right: 0;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 200;
+  background-color: #555;
+  filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+#cross {
+  display: none;
+  left: 15px;
+  top: 15px;
+  position: fixed;
+  z-index: 300;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #222;
+}
+.sticky {
+  position: sticky;
+  -moz-position: sticky;
+}
+
+/*スマホ用マージン設定*/
+@media screen and (max-width: 543px) {
+  .none-margin {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .none-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* ---------- ページヘッダ内の装飾 ---------- */
+
+#pageHead a {
+	color: #de6a3c;
+}
+#pageHead a:hover {
+	color: #9c482a;
+  text-decoration: none;
+}
+#pageHead a:active {
+	color: #9c482a;
+  text-decoration: none;
+}
+#pageHead a.btn {
+  color: #fff;
+}
+#pageHead #discription p {
+  margin: 5px 0 0;
+  color: #999;
+}
+#pageHead .text-center {
+  margin: 5px 0 0;
+}
+#headerInfo {
+  border-bottom: 1px solid #f7ded5;
+}
+#headerInfo p {
+  font-size: 12px;
+}
+#headerInfo .back-xs-down {
+  padding: 0 2px;
+}
+#siteTitle .col-sm-1 {
+  padding: 0;
+}
+#catchcopy {
+	color: #de6a3c;
+}
+#siteName {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 543px) {
+  #siteTitle .col-6 {
+    padding-left: 0;
+  }
+  #siteTitle .hidden-sm-up {
+    padding: 0;
+  }
+  #siteTitle a {
+    font-size: 7px;
+  }
+  #catchcopy {
+    font-size: 10px;
+  }
+  #siteName {
+    font-size: 16px;
+    margin: 12px 0 0 8px;
+  }
+  #siteName a {
+    font-size: 16px;
+  }
+}
+
+/* ---------- ページボディ内の装飾 ---------- */
+
+#info-text {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f7ded5;
+}
+#info-text .lead {
+  color: #6e321d;
+}
+#info-text strong {
+  color: #6e321d;
+}
+
+/* ---------- メインカラム内の装飾 ---------- */
+
+/*検索*/
+#search {
+  margin: 30px 10px;
+  padding: 10px;
+	background-color: #f7ded5;
+  border-radius: 10px;
+}
+#search h1 {
+	color: #6e321d;
+  text-align: center;
+}
+#search .bg-white {
+	padding: 3px;
+}
+#searchSubject {
+	padding: 5px;
+}
+#searchBox {
+	background-color: #fff;
+	margin: 5px;
+	padding: 5px;
+}
+#searchForm {
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 543px) {
+  #search {
+    margin: 0;
+    padding: 0;
+  	background-color: #fff;
+  }
+  #searchSubject {
+    padding: 0;
+  }
+  #searchDoctor {
+    padding: 0;
+  }
+  #searchHospital {
+  }
+  #search h1 {
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+  	color: #6e321d;
+    background-color: #f7ded5;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #search-btn {
+    margin-top: 20px;
+  }
+}
+
+/*一括見積もり*/
+#estimate {
+  margin: 40px 10px;
+  padding: 20px 10px;
+  border-top: 1px solid #f7ded5;
+  border-bottom: 1px solid #f7ded5;
+}
+#estimatePR h2 {
+  font-size: 20px;
+	color: #de6a3c;
+  text-align: center;
+}
+#estimatePR p {
+  text-align: center;
+}
+
+@media screen and (max-width: 543px) {
+  #estimate {
+    margin: 0;
+    padding: 5px 0;
+    border: none;
+  }
+}
+
+/*お悩み相談*/
+#onayami {
+  margin: 20px 10px;
+  padding: 20px 0;
+}
+#onayami .ttl-bar-bold.hidden-sm-up {
+  margin-bottom: 0;
+}
+.onayami_xs-l {
+  margin-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #f7ded5;
+  border-top: #fff;
+}
+.onayami_xs-r {
+  margin-left: -5px;
+  padding-left: 0;
+  padding-right: 0;
+  border-right: 1px solid #f7ded5;
+  border-bottom: 1px solid #f7ded5;
+}
+.onayami_xs-l h2 {
+  margin: 0;
+}
+#onayamiElement {
+  padding: 10px 0;
+  border-top: 3px solid #f7ded5;
+}
+#onayamiElement h2 {
+  font-weight: 700;
+}
+#onayamiElement ul {
+  padding-left: 10px;
+}
+#onayamiElement li {
+  font-size: 12px;
+  list-style: none;
+}
+
+@media screen and (max-width: 543px) {
+  #onayami {
+    margin: 0;
+    padding: 5px 0;
+  }
+  #onayami .row {
+    margin-right: 0;
+    width: inherit;
+  }
+  #onayamiElement {
+    padding: 12px 0 4px 0;
+    border: none;
+  }
+}
+
+/*広告1*/
+#ad_1 {
+  margin: 20px 10px;
+  padding: 30px 10px;
+  background-color: #f7ded5;
+}
+
+/*都道府県検索*/
+#area {
+  margin: 20px 10px;
+  padding: 30px 0;
+}
+
+/*医者ドットコムニュース*/
+#topics {
+  margin: 20px 10px;
+  padding: 10px 0;
+}
+#topics > .row {
+  margin: 10px 0;
+  border-bottom: 1px solid #f7ded5;
+}
+#topics .col-sm-6 {
+  padding: 0;
+}
+#icon1 {
+  color: #ffd700;
+}
+#icon2 {
+  color: #c0c0c0;
+}
+#icon3 {
+  color: #cd7f32;
+}
+
+@media screen and (max-width: 543px) {
+  #topics {
+    margin: 0;
+    padding: 5px 0 0;
+  }
+  .rank {
+    text-align: center;
+  }
+}
+
+/*みんなの医療相談*/
+#bbs {
+  margin: 20px 10px;
+  padding: 30px 0;
+}
+#bbs > .row {
+  margin: 10px 0;
+  border-bottom: 1px solid #f7ded5;
+}
+#bbs .col-sm-6 {
+  padding: 0;
+}
+
+@media screen and (max-width: 543px) {
+  #bbs {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+/* ---------- サブカラム内の装飾 ---------- */
+
+/*医者ドットコムニュースランキング*/
+#topics_ranking  {
+  margin: 20px 10px;
+  padding: 10px 0;
+}
+#topics_ranking > .row {
+  margin: 10px 0;
+  border-bottom: 1px solid #f7ded5;
+}
+#topics_ranking .col-sm-6 {
+  padding: 0;
+}
+
+/*医師ランキング*/
+#doctorRanking {
+  margin: 20px 10px;
+  padding: 10px 0;
+}
+#doctorRanking .col-12 {
+  padding: 5px 15px 50px;
+  border-top: 1px solid #eee;
+}
+#doctorRanking .col-6 {
+  padding: 0;
+}
+#doctorRanking .col-6 div {
+  padding: 5px 15px 50px;
+  border-top: 1px solid #f7ded5;
+}
+
+/*広告2*/
+#ad_2 {
+  margin: 20px 10px;
+  padding: 20px 10px 500px;
+  background-color: #f7ded5;
+}
+
+/* ---------- お悩み相談の装飾 ---------- */
+
+/*病名タイトル*/
+#ttl_menu {
+  margin-top: 30px;
+	padding: 40px 20px 20px;
+	border-top: 1px solid #f7ded5;
+}
+#ttl_menu h1 {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 543px) {
+  #ttl_menu {
+    margin: 0;
+    padding: 0;
+  }
+  #ttl_menu h1 {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+  	color: #6e321d;
+    background-color: #f7ded5;
+    text-align: center;
+  }
+}
+
+/*リード文*/
+#leadText {
+	padding: 20px 0;
+  border-bottom: 1px solid #f7ded5;
+}
+#leadSentence {
+  padding: 0 25px;
+}
+#leadSentence dt {
+  cursor: pointer;
+}
+#leadSentence dd {
+  display: none;
+}
+#leadSearch h2 {
+  margin-bottom: 0;
+  color: #fff;
+  background-color: #eb9f83;
+}
+#leadSearch div {
+	padding-bottom: 100px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 543px) {
+  #leadText {
+    padding: 10px 0 0;
+    border: none;
+  }
+  #leadSentence {
+    padding: 0 15px;
+  }
+  #leadSentence p {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 544px) {
+  #leadText {
+    background-color: #f7ded5;
+  }
+}
+
+/*カテゴリのリスト*/
+#categoryList {
+  margin: 20px 0;
+  padding: 10px 0;
+}
+#categoryList > div {
+  padding: 20px 15px;
+  margin-top: -10px;
+  border:  1px solid #f7ded5;
+}
+.text-right {
+  text-align: right;
+}
+.borderbottom p {
+  color: #de6a3c;
+}
+
+
+@media screen and (max-width: 543px) {
+  #categoryList {
+    margin: 0;
+    padding: 10px 0 0;
+  }
+  #categoryList > div {
+    padding: 0;
+    border: none;
+  }
+  .borderbottom {
+    border-bottom: 1px solid #eee;
+    padding: 10px 10px 10px 15px;
+  }
+  .borderbottom p {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 4px 0;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  #onayami .ttl-bar-bold {
+  	margin-bottom: 0;
+  }
+}
+
+/* ---------- 各疾患の装飾 ---------- */
+
+/*各カテゴリのタイトルとリード文*/
+#category {
+  margin: 20px 10px;
+  padding: 20px 10px;
+  background-color: #f7ded5;
+}
+#category .ttl-bar-bold {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 543px) {
+  #category {
+    margin: 0;
+    padding: 0;
+  }
+  #category p {
+    padding: 15px;
+  }
+}
+
+/*医療ガイド*/
+#guide {
+  margin: 20px 10px;
+  padding: 10px 0;
+}
+#guide .row {
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 543px) {
+  #guide {
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  #guideImg {
+    padding-left: 5px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 544px) {
+  #category h1 {
+    font-size: 40px;
+  }
+}
+
+/*各カテゴリの医療相談のリスト*/
+#bbsList {
+  margin: 20px 10px;
+  padding: 10px 0;
+}
+.bbsArticle {
+  margin: auto 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #f7ded5;
+}
+.bbsArticle h2 {
+  font-size: 16px;
+}
+.hand {
+  padding: 0 0 0 30px;
+}
+
+@media screen and (max-width:543px) {
+  #bbsList {
+    margin: 0;
+  }
+}
+
+/* ---------- 医者ドットコムニュースの装飾 ---------- */
+
+/*ニュース記事*/
+#news {
+  margin: 50px 0 30px;
+  border: 1px solid #ccc;
+}
+#news img {
+  width: 100%;
+}
+#newsTitle {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;}
+
+#newsTitle h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin: .67rem 0;
+}
+#newsContent {
+  padding: 15px;
+}
+#newsContent p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+#newsContent h2 {
+  font-size: 20px;
+  color: #de6a3c;
+  font-weight: 700;
+}
+#newsContent h3 {
+  font-size: 18px;
+  color: #349fa6;
+}
+#newsContent p {
+  margin-bottom: 3rem;
+}
+#newsContent dl {
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+#newsContent ul {
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+#newsContent ol {
+  font-size: 16px;
+  margin-bottom: 3rem;
+}
+#newsDate {
+  font-size:14px;
+  text-align: right;
+  margin: 14px;
+}
+#newsdoctorcom p {
+  margin-top:14px;
+  font-size: 16px;
+}
+
+/* ---------- みんなの医療相談の装飾 ---------- */
+
+/*Q&A*/
+#questionTitle {
+  margin-top: 50px;
+}
+#questionTitle h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 50px 0 30px;
+}
+
+#answers {
+  margin-top: 30px;
+}
+.answer {
+  margin: 20px 0;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+
+/* ---------- 医師新規登録画面の装飾 ---------- */
+
+fieldset {
+  margin-top: 50px;
+  border: none;
+}
+legend {
+  font-weight: 700;
+  color: #6e321d;
+  margin-bottom: 30px;
+}
+form p {
+  font-size: 16px;
+  margin-bottom: 0;
+  text-align: center;
+  color: #fff;
+}
+.radio label {
+  margin-right: 30px;
+}
+
+/* ---------- 医師ログイン画面の装飾 ---------- */
+
+#promptDoctor {
+  margin-top: 50px;
+}
+#addDoctor legend {
+  margin-top: 50px;
+}
+
+/* ---------- inherit from 'cake.css' ---------- */
+
+.date select,
+.time select,
+.datetime select {
+    display: inline;
+    width: auto;
+    margin-right: 10px;
+}
+.required > label {
+    font-weight: bold;
+}
+.required > label:after {
+    content: ' *';
+    color: #C3232D;
+}
+.form button[type="submit"] {
+    float: right;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+
+.doctor_submit button[type="submit"]　{
+   float: right;
+    text-transform: uppercase;
+    box-shadow: none;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #000;
+    color: #fff;
+    border-style: none; // submitボタンのを枠を非表示にする
+}
+
+}
+
+doctor_login button[type="submit"]　{
+   float: right;
+    text-transform: uppercase;
+    box-shadow: none;
+    padding: 15px;
+    font-size: 1em;
+    background-color: #fff;
+    color: #000;
+    border-style: solid;
+}
+
+@media only screen and (min-width: 40.0625em)
+base.css:455
+button, .button {
+    display: inline-block;
+}
+
+
+
+/* ---------- inherit from 'base.css' ---------- */
+
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+button {
+    background: #966600;
+}
+button, .button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem 1.0625rem 2rem;
+    font-size: 1rem;
+    background-color: #008CBA;
+    border-color: #007095;
+    color: #fff;
+    transition: background-color 300ms ease-out;
+}
+input {
+    line-height: normal;
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.75);
+    display: block;
+    font-family: inherit;
+    font-size: 0.875rem;
+    height: 2.3125rem;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: border-color 0.15s linear,background 0.15s linear;
+    -moz-transition: border-color 0.15s linear,background 0.15s linear;
+    -ms-transition: border-color 0.15s linear,background 0.15s linear;
+    -o-transition: border-color 0.15s linear,background 0.15s linear;
+    transition: border-color 0.15s linear,background 0.15s linear;
+}
+input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.75);
+    display: block;
+    font-family: inherit;
+    font-size: 0.875rem;
+    height: 2.3125rem;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: border-color 0.15s linear,background 0.15s linear;
+    -moz-transition: border-color 0.15s linear,background 0.15s linear;
+    -ms-transition: border-color 0.15s linear,background 0.15s linear;
+    -o-transition: border-color 0.15s linear,background 0.15s linear;
+    transition: border-color 0.15s linear,background 0.15s linear;
+}
+input[type="file"], input[type="checkbox"], input[type="radio"], select {
+    margin: 0 0 1rem 0;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+select {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    background-color: #FAFAFA;
+    border-radius: 0;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zd…J2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+);
+    background-position: 100% center;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+    color: rgba(0,0,0,0.75);
+    font-family: inherit;
+    font-size: 0.875rem;
+    line-height: normal;
+    padding: 0.5rem;
+    border-radius: 0;
+    height: 2.3125rem;
+    margin: 0 0 1rem 0;
+    width: 100%;
+}
+button, select {
+    text-transform: none;
+}

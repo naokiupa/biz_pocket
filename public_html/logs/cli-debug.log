@@ -1,0 +1,312 @@
+2017-09-24 14:52:52 Notice: Notice (8): Undefined index: Staffs in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-24 14:53:27 Notice: Notice (8): Undefined index: Staffs in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-24 14:55:13 Notice: Notice (8): Undefined index: Categories in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-24 14:55:13 Notice: Notice (8): Undefined index: Departments in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-24 15:46:56 Notice: Notice (8): Undefined index: Staffs in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-24 15:52:45 Notice: Notice (8): Undefined index: Diseases in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-27 12:26:58 Notice: Notice (8): Undefined index: Categories in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-27 12:26:58 Notice: Notice (8): Undefined index: Departments in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-27 12:26:58 Notice: Notice (8): Undefined index: Diseases in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-27 12:45:26 Notice: Notice (8): Undefined index: Staffs in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 508
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 501
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-27 16:22:28 Notice: Notice (8): Undefined index: Staffs in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-09-27 16:31:39 Notice: Notice (8): Undefined index: Staffs in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-10-01 16:21:55 Notice: Notice (8): Undefined index: Categories in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 257
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT/vendor/cakephp/bake/src/Shell/BakeShell.php, line 258
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 494
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-10-01 19:04:40 Notice: Notice (8): Undefined index: Categories in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 508
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 501
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-10-01 19:25:55 Notice: Notice (8): Undefined index: News in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 508
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 501
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2017-10-01 19:25:55 Notice: Notice (8): Undefined index: Questions in [/home/cwfolgkn/public_html/tmp/bake/Bake-Model-table-ctp.php, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 153
+include - ROOT/tmp/bake/Bake-Model-table-ctp.php, line 21
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 204
+Cake\View\View::_render() - CORE/src/View/View.php, line 1157
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 140
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 936
+Bake\Shell\Task\ModelTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 111
+Bake\Shell\Task\ModelTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/ModelTask.php, line 97
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 508
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 501
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 140
+[main] - ROOT/bin/cake.php, line 12
+
+
+
